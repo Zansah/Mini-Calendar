@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Fondos\ para\ celular\ Wallpaper\ Disney\ Phineas\ y\ Pherb\ Perry.jpg);
+    background-size: cover; 
+    background-position: center; 
+}
+
+.blue-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #6cd3f8ec; 
+    z-index: 1; 
+}
+
+.calendar-container{
+    position: relative; 
+    z-index: 2;
+    width: 350px;
+    height: 500px;
+    background-color: #274C55;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 15px #112325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.month-container{
+    position: absolute;
+    height: 110px;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+    top: 4%;
+    color: orange;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.date-container{
+    position: absolute;
+    height: 320px;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+    top: 30%;
+}
+
+.date-container h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.date-container h2{
+    position: relative;
+    color: black;
+    font-size: 140px;
+    font-weight: bold;
+    top: -30%;
+    color: orange;
+}
+
+.date-container p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -55%;
+
+}
+
+
+  
+  
+  
+
+  
